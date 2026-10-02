@@ -1,0 +1,27 @@
+$kind: http-request
+name: http://localhost:5000
+description: ""
+url: http://localhost:5000/api/employees
+method: GET
+body:
+  type: json
+  content: "{\r
+
+    \  \r
+
+    \            \"name\": \"umar\",\r
+
+    \            \"email\": \"umar@example.com\",\r
+
+    \            \"phone\": \"0771234447\",\r
+
+    \            \"department\": \"IT\",\r
+
+    \            \"position\": \"Software Engineer\",\r
+
+    \            \"status\": \"ACTIVE\",\r
+
+    \            \"sex\": \"boy\"\r
+
+    \        }\r\n"
+order: 1790586843824
