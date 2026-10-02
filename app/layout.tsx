@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+import "./globals.css"
+import { Sidebar } from "@/components/sidebar"
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en">
+      <body className="flex">
+        <Sidebar />
+        <div className="flex-1">
+          {children}
+        </div>
+      </body>
+    </html>
+  )
+}
+=======
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -27,3 +44,4 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     </html>
   );
 }
+>>>>>>> 442ac331bc3fa272bcbcea00588038719c7e58b2
